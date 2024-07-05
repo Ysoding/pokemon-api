@@ -1,2 +1,1 @@
-> a REST api server written by Kotlin & Spring Boot 
-
+# Pokemon RESTful API
