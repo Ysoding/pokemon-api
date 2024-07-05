@@ -1,10 +1,10 @@
 package com.github.ysoding.pokemonapi.repository
 
-import com.github.ysoding.pokemonapi.model.PokemonList
+import com.github.ysoding.pokemonapi.model.*
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface PokemonRepository : MongoRepository<PokemonList, ObjectId> {
+interface ItemListRepository : MongoRepository<ItemList, ObjectId> {
 }
